@@ -1,0 +1,158 @@
+    1  mtadmindev21
+    2  ls
+    3  dir
+    4  Git -version
+    5  git -version
+    6  git --version
+    7  sudo su -
+    8  ls
+    9  git clone https://github.com/rashmipal-mindtree/DevOps-301-Mindtree-2020Oct17.git
+   10  cd DevOps-301-Mindtree-2020Oct17
+   11  ls
+   12  ls - lrt
+   13  ls -lrt
+   14  echo "Hello World" > Hello.txt
+   15  ls
+   16  echo "# DevOps-301-Mindtree-2020Oct17" >> README.md
+   17  ls
+   18  git init
+   19  ls
+   20  git add Hello.txt README.md
+   21  git status
+   22  git commit -m "New file - Hello.txt"
+   23  git log
+   24  git config --global user.email rashmi.pal@mindtree.com
+   25  git config --global user.username "rashmipal-mindtree"
+   26  git config --list
+   27  git config --global core.editor vi
+   28  git status
+   29  git push -u origin master
+   30  history
+   31  git config --list
+   32  vi hello1.txt
+   33  git status
+   34  git add hello1.txt
+   35  git commit -m "added hello1.txt"
+   36  git push -u origin master
+   37  git config --list
+   38  user.email=rashmi.pal@mindtree.com
+   39  user.username=rashmipal-mindtree
+   40  core.editor=vi
+   41  core.repositoryformatversion=0
+   42  core.filemode=true
+   43  core.bare=false
+   44  core.logallrefupdates=true
+   45  remote.origin.url=https://github.com/rashmipal-mindtree/DevOps-301-Mindtree-2020Oct17.git
+   46  remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+   47  branch.master.remote=origin
+   48  branch.master.merge=refs/heads/mastercls
+   49  clear
+   50  pwd
+   51  ls
+   52  git config --list
+   53  branch
+   54  ls
+   55  cd DevOps-301-Mindtree-2020Oct17/
+   56  ls
+   57  cd DevOps-301-Mindtree-2020Oct17/
+   58  git --version
+   59  git logs
+   60  git log
+   61  git showlog
+   62  git shortlog
+   63  ls
+   64  git branch
+   65  git status
+   66  ls
+   67  git branch UAT
+   68  git branch
+   69  ls
+   70  git checkout UAT
+   71  git branch
+   72  git logs
+   73  git log
+   74  ls
+   75  echo "Welcome to the Branch UAT" > UAT_Branch_Info.txt
+   76  git status
+   77  git add UAT_Branch_Info.txt
+   78  git commit -m "File Added: UAT"
+   79  git status
+   80  git log
+   81  ls
+   82  git branch
+   83  git config --list
+   84  git push
+   85  git branch
+   86  git config --list
+   87  git branch
+   88  git checkout main
+   89  git branch
+   90  git checkout master
+   91  git config credential.helper store
+   92  ls
+   93  git push
+   94  ls
+   95  git branch
+   96  git branch local
+   97  git branch
+   98  git checkout local
+   99  git branch
+  100  echo "Welcome to the Branch local" > Local_Branch_Info.txt
+  101  git status
+  102  git add Local_Branch_Info.txt 
+  103  ls
+  104  git commit -m "File Added: Local Branch text file"
+  105  ls
+  106  git status
+  107  git push
+  108  git log
+  109  git branch
+  110  git checkout main
+  111  git branch
+  112  git checkout master
+  113  git branch
+  114  git log --online --graph
+  115  git merge UAT -m "Merging UAT into Main Branch"
+  116  git log --online --graph
+  117  git log
+  118  git branch
+  119  git merge UAT
+  120  git push
+  121  git branch
+  122  git merge local -m "Merging local into master"
+  123  git log
+  124  git push
+  125  git branch
+  126  git log --online --graph
+  127* 
+  128  git branch
+  129  git log
+  130  history
+  131  git branch
+  132  history >> Day1_history.txt
+  133  ls
+  134  git add Day1_history.txt 
+  135  git commit -m "adding day1 history as text file to master"
+  136  git push
+  137  git branch
+  138  git tag myrelease_2020_Oct_17_V1
+  139  ls
+  140  git log
+  141  git push --tags
+  142  ls
+  143  mkdir 01-Git
+  144  ls
+  145  mv * 01-Git/
+  146  ls
+  147  cd 01-Git/
+  148  ls
+  149  cd ..
+  150  ls
+  151  git status
+  152  git add .
+  153  git commit -m "added 01-git dir"
+  154  git branch
+  155  git push
+  156  git log
+  157  history
+  158  history >> updated_day1_history.txt
