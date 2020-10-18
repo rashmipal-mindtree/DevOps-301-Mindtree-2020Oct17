@@ -1,0 +1,61 @@
+    1  ls
+    2  ip addr
+    3  cd ..
+    4  apt-get install git -y
+    5  ls
+    6  git init --bare my-project.git
+    7  cd my-project.git/
+    8  ls
+    9  cd ..
+   10  cd devops301-mindtree-17Oct2020
+   11  mkdir devops301-mindtree-17Oct2020
+   12  cd devops301-mindtree-17Oct2020
+   13  echo "Hello World" > Hello.txt
+   14  ls
+   15  ls -ltr
+   16  git status
+   17  cd ..
+   18  ls
+   19  cd devops301-mindtree-17Oct2020/
+   20  ls
+   21  git config --global user.email rashmi.pal@mindtree.com
+   22  git config --global user.username "rashmipal-mindtree"
+   23  git config --list
+   24  git config --global core.editor "vi"
+   25  git config --list
+   26  git config --global help.autocorrect 1
+   27  git config --list
+   28  ls
+   29  git init
+   30  git commit -m "Pushing hello text file to gitgub"
+   31  git add Hello.txt
+   32  git status
+   33  git commit -m "Pushing hello text file to gitgub"
+   34  ls
+   35  ps -ef | grep -i jenkins
+   36  java --version
+   37  java -version
+   38  date
+   39  apt -get install default -jdk -y
+   40  apt-get install default-jdk -y
+   41  ls
+   42  java -version
+   43  wget https://get.jenkins.io/war-stable/2.249.2/jenkins.war
+   44  ls
+   45  pwd
+   46  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+   47  ps -ef | grep -i jenkins
+   48  ipconfig
+   49  sudo ifconfig
+   50  cat .jenkins/secrets/initialAdminPassword
+   51  tail -f output.txt
+   52  ls
+   53  su -
+   54  ls
+   55  git clone https://github.com/rashmipal-mindtree/DevOps-301-Mindtree-2020Oct17.git
+   56  ls
+   57  cd DevOps-301-Mindtree-2020Oct17/
+   58  ls
+   59  cd 01-Git/
+   60  ls
+   61  history >> Day2_history.txt
