@@ -1,0 +1,1000 @@
+  346  ls
+  347  cd 02-Jenkins/
+  348  ls
+  349  cd ..
+  350  cd 03-T
+  351  cd 03-Tomcat
+  352  ls
+  353  cd devops301-mindtree-17Oct2020
+  354  ls
+  355  cd ..
+  356  sudo su -
+  357  ls -lrt
+  358  cd devops301-mindtree-17Oct2020
+  359  ls -lrt
+  360  cd 03-Tomcat/
+  361  ls
+  362  cd ..
+  363  cd /opt/tomcat
+  364  ls -lrt
+  365  ls -ltr
+  366  cd ..
+  367  chmod +x bin/catalina.sh
+  368  ./bin/catalina.sh start
+  369  ps -ef | grep -i tomcat
+  370  netstat -tulnp | grep -i 8080
+  371  ps -ef | grep -i tomcat
+  372  netstat -tulnp | grep -i 8080
+  373  cd ..
+  374  ls -ltr
+  375  pwd
+  376  cd devops301-mindtree-17Oct2020
+  377  ls
+  378  cd ..
+  379  su do su -
+  380  sudo su -
+  381  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  382  cd /opt/tomcat/
+  383  chmod +x bin/catalina.sh
+  384  ./bin/catalina.sh start
+  385  ls -lrt
+  386  cd devops301-mindtree-17Oct2020/
+  387  ls -lrt
+  388  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  389  ls -lrt
+  390  cd 04-Docker/
+  391  ls -lrt
+  392  cd 00-Setup/
+  393  ls -lrt
+  394  cd ..
+  395  ls -lrt
+  396  cd 04-Docker/
+  397  cd 00-Setup/
+  398  ./docker-install.sh 
+  399  docker version
+  400  docker run busybox echo "Welcome to the world of Docker Containers.!"
+  401  docker run busybox echo "Test -2"
+  402  docker ps
+  403  docker ps -a
+  404  docker images
+  405  docker --help
+  406  docker ps -a
+  407  cd ..
+  408  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  409  cd 04-Docker/
+  410  cd 00-Setup/
+  411  ps -a
+  412  docker images
+  413  docker pull ubuntu:16.04
+  414  docker images
+  415  docker run -it ubuntu:16.04
+  416  docker images
+  417  docker attach dfeff22e96ae
+  418  docker ps -a
+  419  docker attach df1453635f03
+  420  docker run -it ubuntu:16.04
+  421  docker ps -a
+  422  docker attach ec528d0d02be
+  423  docker ps
+  424  cd ..
+  425  docker ps
+  426  docker ps -a
+  427  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  428  cd ..
+  429  ls
+  430  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  431  cd devops301-mindtree-17Oct2020/
+  432  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  433  docker image
+  434  docker --help
+  435  docker images
+  436  docker run -it ubuntu:16.04
+  437  ls
+  438  docker ps
+  439  docker inspect b4030a9f54db 
+  440  docker attach b4030a9f54db
+  441  docker ps -a
+  442  docker attach b4030a9f54db 
+  443  docker ps 
+  444  curl 17.17.0.3/hello.html
+  445  docker inspect b4030a9f54db
+  446  curl 172.17.0.3
+  447  curl 172.17.0.3/hello.html
+  448  docker ps
+  449  docker images
+  450  docker commit -p -m "First Apche Image" b4030a9f54db apache-test-image:v1
+  451  docker images
+  452  docker run -it apache-test-image:v1
+  453  ls
+  454  cd devops301-mindtree-17Oct2020
+  455  ls
+  456  docker images
+  457  docker ps -a
+  458  docker run -it apache-test-image:v1
+  459  docker ps -a
+  460  docker inspect 79a2d4d78de7
+  461  curl 172.17.0.4
+  462  docker attach 79a2d4d78de7
+  463  docker ps
+  464  docker inspect 79a2d4d78de7
+  465  curl 172.17.04
+  466  curl 172.17.0.4
+  467  ps -a
+  468  docker ps
+  469  docker images
+  470  which apache2ctl
+  471  docker attach 79a2d4d78de7
+  472  ps
+  473  docker ps
+  474  curl 172.17.0.4/hello1.html
+  475  curl 172.17.0.4/hello.html
+  476  docker attach 79a2d4d78de7
+  477  docker ps
+  478  docker commit -p -m "Second Apache Image" 79a2d4d78de7 apache-test-image:v2
+  479  ls
+  480  docker ps
+  481  ls
+  482  cd 04-Docker/
+  483  ls
+  484  cd 00-Setup/
+  485  ls
+  486  docker images
+  487  docker ps -a
+  488  docker ps -aq
+  489  docker ps -a
+  490  docker ps 
+  491  docker kill $(docker ps -aq)
+  492  docker ps
+  493  docker ps -a
+  494  docker images
+  495  cd ..
+  496  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  497  ls
+  498  docker ps
+  499  docker ps -a
+  500  docker images
+  501  docker run -itd apache-test-image:v2
+  502  exit
+  503  cd /root/.jenkins/workspace/petclinic-code-freestyle/02-Jenkins/petclinic-code/target
+  504  ls
+  505  pwd
+  506  cd
+  507  ls
+  508  cd devops301-mindtree-17Oct2020/
+  509  ls -lrt
+  510  cd 04-Docker/
+  511  ls
+  512  ls -lrt
+  513  cd 03-DockerCompose/
+  514  ls
+  515  cd tomcat/
+  516  ls -lrt
+  517  ls -l
+  518  docker ps
+  519  docker-compose
+  520  docker-compose ps
+  521  docker-compose --version
+  522  ./docker-compose.sh
+  523  ls
+  524  cd devops301-mindtree-17Oct2020/
+  525  ls
+  526  cd 04-Docker/
+  527  ls
+  528  cd 03-DockerCompose/
+  529  ls
+  530  cd tomcat/
+  531  sudo chmod +x /usr/local/bin/docker-compose
+  532  docker compose up -d --build
+  533  docker -compose up -d --build
+  534  docker-compose up -d --build
+  535  apt install docker-compose
+  536  docker-compose up -d --build
+  537  docker-compose ps
+  538  ls -lrt
+  539  vi Dockerfile 
+  540  ls
+  541  vi Dockerfile 
+  542  ls -lrt
+  543  rm docker-compose.sh
+  544  ls
+  545  vi docker-compose.yaml 
+  546  ls -lr
+  547  cd
+  548  cd/root/.jenkins
+  549  sudo su -
+  550  ls -lrt
+  551  cd /root/.jenkins
+  552  ls
+  553  cd workspace/
+  554  ls
+  555  cd petclinic-code-freestyle/
+  556  ls
+  557  cd 02-Jenkins/
+  558  ls
+  559  cd petclinic-code/
+  560  ls
+  561  cd target/
+  562  ls
+  563  pwd
+  564  cd 
+  565  ls
+  566  cd devops301-mindtree-17Oct2020/
+  567  ls
+  568  cd 04-Docker/
+  569  ls
+  570  cd 03-DockerCompose/
+  571  ls
+  572  cd tomcat/
+  573  ls
+  574  cp -rf /root/.jenkins/workspace/petclinic-code-freestyle/02-Jenkins/petclinic-code/target/petclinic.war .
+  575  ls -lr
+  576  docker-compose up -d --build
+  577  ./docker-compose.sh
+  578  vim docker-compose.sh
+  579  ls -lrt
+  580  ./docker-compose.sh
+  581  sudo su -
+  582  docker ps -a
+  583  docker ps
+  584  clear
+  585  docker ps
+  586  ls
+  587  cd devops301-mindtree-17Oct2020/
+  588  ls
+  589  cd 04-Docker/
+  590  ls
+  591  cd 03-DockerCompose/
+  592  ls
+  593  cd tomcat
+  594  ls
+  595  cd
+  596  ls
+  597  cd root
+  598  ls
+  599  cd ..
+  600  sudo su -
+  601  ls
+  602  cd devops301-mindtree-17Oct2020
+  603  ls
+  604  cd 04-Docker/
+  605  ls
+  606  cd 02-Dockerfile/
+  607  ls
+  608  docker images
+  609  cd apache
+  610  ls
+  611  docker images
+  612  docker buid -t apache-df-image:v1 .
+  613  docker build -t apache-df-image:v1 .
+  614  docker images
+  615  docker run -d apache-df-image:v1
+  616  docker ps
+  617  docker inspect
+  618  curl 172.17.0.2/info.html
+  619  curl 172.17.0.4/info.html
+  620  docker images
+  621  docker ps
+  622  docker inspect 60fbc1188e8b
+  623  curl 172.17.0.3/info.html
+  624  docker ps -a
+  625  docker ps
+  626  docker images
+  627  cd ..
+  628  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  629  cd 04-Docker/
+  630  cd 02-Dockerfile/
+  631  la
+  632  ls
+  633  cd tomcat
+  634  ls
+  635  vi Dockerfile 
+  636  docker ps
+  637  ls
+  638  vi Dockerfile
+  639  docker ps
+  640  docker run -d --name test-nw-01 -P apache-df-image:v1
+  641  docker ps
+  642  ls -ltr
+  643  docker ps
+  644  docker kill 44b870c6f5ad
+  645  docker ps
+  646  docker run 60fbc1188e8b
+  647  docker network inspect 60fbc1188e8b
+  648  docker run -d --name test-nw-01 apache-df-image:v1
+  649  docker ps
+  650  ip addr
+  651  docker ps
+  652  docker run -d --name test-nw-01 -p 80:80 apache-df-image:v1
+  653  docker run -d --name test-nw-02 -p 80:80 apache-df-image:v1
+  654  docker ps
+  655  ls
+  656  netstat -tulnp
+  657  ls -lr
+  658  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  659  cd ..
+  660  ls
+  661  cd 02-Jenkins/
+  662  pwd
+  663  cd ..
+  664  ls
+  665  cd 04-Docker/
+  666  ls
+  667  docker ps
+  668  cd /root
+  669  ls -a
+  670  cd .jenkins
+  671  ls
+  672  cd workspace/
+  673  ls
+  674  cd petclinic-code-freestyle/
+  675  ls
+  676  cd 02-Jenkins/
+  677  ls
+  678  cd petclinic-code/
+  679  ls
+  680  cd target/
+  681  ls
+  682  pwd
+  683  du -sh petclinic.war 
+  684  pwd
+  685  cd
+  686  ls
+  687  cd devops301-mindtree-17Oct2020/
+  688  ls
+  689  cd 04-Docker/
+  690  ls
+  691  cd 02-Dockerfile/tomcat/
+  692  ls
+  693  du -sh petclinic.war 
+  694  cp -rf /root/.jenkins/workspace/petclinic-code-freestyle/02-Jenkins/petclinic-code/target/petclinic.war .
+  695  du -sh petclinic.war 
+  696  docker build -t petclinic-tomcat:v1 .
+  697  docker images
+  698  docker run -d --name test-pet-01 -P petclinic-tomcat:v1
+  699  docker ps
+  700  docker images
+  701  docker ps
+  702  clear
+  703  docker ps
+  704  cd ..
+  705  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  706  ls
+  707  cd docker ps
+  708  sudo su -
+  709  ls -lrt
+  710  cd devops301-mindtree-17Oct2020/
+  711  ls
+  712  cd 04-Docker/
+  713  ls
+  714  docker version
+  715  docker images
+  716  docker ps -a
+  717  docker run -it ubuntu:16.04
+  718  docker ps -a
+  719  docker attach e84c04019e1e
+  720  docker ps
+  721  docker ps -q
+  722  docker ps -ql
+  723  docker kill $(docker ps -q)
+  724  docker ps
+  725  docker ps -a
+  726  docker images
+  727  docker run -it ubuntu:16.04
+  728  docker ps
+  729  docker inspect 44147b865318
+  730  curl 172.17.0.2
+  731  curl 172.17.0.2/hello.html
+  732  docker ps
+  733  docker images
+  734  docker commit -p -m "My First Practice Apache Image" 44147b865318 apache-practice-test-image:v1
+  735  docker images
+  736  docker run -it apache-practice-test-image:v1
+  737  docker images
+  738  docker run -it apache-practice-test-image:v1
+  739  docker ps
+  740  coker inspect 38cd8975d6f3
+  741  docker inspect 38cd8975d6f3
+  742  curl 172.17.0.4
+  743  docker images
+  744  docker ps
+  745  docker inspect 31ba0b6a7aa1
+  746  curl 172.17.0.3
+  747  ps -ed | grep apache
+  748  docker ps
+  749  docker kill 38cd8975d6f3
+  750  docker ps
+  751  docker images
+  752  docker run -it apache-practice-test-image:v1
+  753  docker inspect 31ba0b6a7aa1
+  754  curl 172.17.0.3/hello.html
+  755  docker attach 31ba0b6a7aa1
+  756  docker ps
+  757  docker inspect 1989c9e2026f
+  758  docker ps
+  759  docker inspect 31ba0b6a7aa1
+  760  curl 172.17.0.3
+  761  curl 172.17.0.3/hello.html
+  762  docker ps
+  763  docker commit -p -m "My Second Apache Test image" 31ba0b6a7aa1 apache-practice-test-image:v2
+  764  docker images
+  765  docker ps
+  766  docker ps -aq
+  767  docker ps -a
+  768  docker kill $(docker ps -aq)
+  769  docker ps
+  770  clear
+  771  docker ps -a
+  772  docker images
+  773  docker run apache-practice-test-image:v2
+  774  docker ps
+  775  docker run -itd --name rashmi-test apache-practice-test-image:v2
+  776  docker ps
+  777  ls
+  778  cd 02-Dockerfile/
+  779  ls
+  780  cd apache/
+  781  ls
+  782  vi Dockerfile 
+  783  ls -lrt
+  784  vi info.html 
+  785  clear
+  786  ls
+  787  docker images
+  788  docker build -t apache-rp-image:v1 .
+  789  ls
+  790  docker images
+  791  docker run -d apache-rp-image:v1
+  792  docker ps
+  793  docker inspect 26489109acb6
+  794  curl 172.17.0.3/info.html
+  795  ip netns
+  796  ln -s /var/run/docker/netns /var/run/netns
+  797  ip netns
+  798  ip addr
+  799  docker ps
+  800  docker network inspect 26489109acb6
+  801  netstat -tulnp
+  802  cd ..
+  803  ls
+  804  cd tomcat
+  805  ls
+  806  ls -lrt
+  807  vi Dockerfile 
+  808  vim Dockerfile 
+  809  clear
+  810  vim Dockerfile 
+  811  clear
+  812  ls
+  813  docker images
+  814  docker ps
+  815  docker kill $(docker ps -aq)
+  816  docker ps
+  817  docker run -d --name rashmi_image -p 80:80 apache-rp-image:v1
+  818  docker ps
+  819  docker build -t rashmi-petclinic-tomcat:v1 .
+  820  docker images
+  821  docker run -d --name rashmi-test-pet-01 -P rashmi-petclinic-tomcat:v1
+  822  docker ps
+  823  docker kill $(docker ps -aq)
+  824  docker ps
+  825  clear
+  826  docker images
+  827  cd ..
+  828  ls
+  829  cd 03-DockerCompose/
+  830  ls -lrt
+  831  ls
+  832  cd tomcat/
+  833  ls
+  834  docker-compose --version
+  835  ls -lrt
+  836  vim docker-compose.yaml 
+  837  clear
+  838  ls
+  839  ls -lrt
+  840  docker-compose up -d --build
+  841  docker ps
+  842  docker images
+  843  docker-compose ps
+  844  docker-compose --help
+  845  docker-compose ps
+  846  docker-compose stop
+  847  docker-compose ps
+  848  ls
+  849  docker-compose rm
+  850  docker-compose ps
+  851  exit
+  852  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  853  exit
+  854  ls -lrt
+  855  cd devops301-mindtree-17Oct2020/
+  856  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  857  ls
+  858  cd 04-Docker/
+  859  ls
+  860  cd 03-DockerCompose/
+  861  ls
+  862  cd Jfrog-Artifact/\
+  863  ls
+  864  docker-compose up
+  865  docker-compose up -d
+  866  docker-compose --version
+  867  ls
+  868  sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  869  docker-compose --version
+  870  rm -rf /usr/bin/docker-compose
+  871  chmod +x /usr/local/bin/docker-compose
+  872  docker-compose --version
+  873  cp -rf /usr/local/bin/docker-compose /usr/bin/docker-compose
+  874  docker-compose --version
+  875  docker-compose up -d
+  876  docker-compose -ps
+  877  docker-compose ps
+  878  clear
+  879  cd 
+  880  ls
+  881  history |grep -i httpPort
+  882  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  883  ls
+  884  cd devops301-mindtree-17Oct2020/
+  885  ls
+  886  cd 04-Docker/
+  887  ls
+  888  cd ..
+  889  git pull https://github.com/rashmipal-mindtree/DevOps-301-Mindtree-2020Oct17.git
+  890  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  891  git clone https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  892  ls
+  893  cd ..
+  894  ls
+  895  cd devops301-mindtree-17Oct2020/
+  896  ls
+  897  rm -rf devops301-mindtree-17Oct2020/
+  898  ls
+  899  cd ..
+  900  git pull https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  901  git clone https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  902  ls -lrt
+  903  cd devops301-mindtree-17Oct2020/
+  904  ls
+  905  git pull
+  906  gitpull origin amster
+  907  git pull origin master
+  908  ls
+  909  cd 04-Docker/
+  910  cd ..
+  911  cd 04-Docker/
+  912  ls
+  913  cd 03-DockerCompose/
+  914  ls
+  915  wget https://updates.jenkins.io/download/plugins/sonar/2.8.1/sonar.hpi
+  916  ls -lrt
+  917  docker-compose -up
+  918  docker-compose up -d
+  919  cd ..
+  920  cd 03-DockerCompose/
+  921  ls
+  922  clear
+  923  ls
+  924  cd 
+  925  cd devops301-mindtree-17Oct2020/
+  926  git pull
+  927  gti status
+  928  git config --list
+  929  cd 
+  930  ls
+  931  rm -rf devops301-mindtree-17Oct2020/
+  932  ls
+  933  git clone https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+  934  cd devops301-mindtree-17Oct2020/
+  935  ls
+  936  cd 04-Docker/
+  937  ls
+  938  cd 03-DockerCompose/
+  939  ls
+  940  cd sonarqube/
+  941  ls
+  942  docker-compose up -d
+  943  docker-compose ps
+  944  netstat -tulnp
+  945  docker-compose ps
+  946  docker ps
+  947  docker ps -a
+  948  docker-compose --version
+  949  docker-compose up -d
+  950  docker-compose ps
+  951  docker logs sonarqube
+  952  docker ps
+  953  docker ps -a
+  954  docker logs
+  955  cat docker-compose.yaml 
+  956  sysctl -w vm.max_map_count=262144
+  957  clear
+  958  docker-compose up -d
+  959  docker-compose ps
+  960  cd 
+  961  cd devops301-mindtree-17Oct2020/
+  962  ls -lrt
+  963  cat Day4_History.txt 
+  964  free -m
+  965  top
+  966  ls -lrt
+  967  cd devops301-mindtree-17Oct2020/
+  968  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  969  docker ps -a
+  970  docker-compose ps
+  971  ls
+  972  cd 04-Docker/
+  973  ls
+  974  cd 03-DockerCompose/
+  975  ls
+  976  cd sonarqube/
+  977  ls
+  978  docker-compose up -d
+  979  docker-compose ps
+  980  ls
+  981  cat docker-compose.yaml
+  982  sysctl -w vm.max_map_count=262144
+  983  docker-compose ps
+  984  netstat -tulnp
+  985  docker ps
+  986  docker-compose ps
+  987  docker-compose up -d
+  988  docker-compose ps
+  989  cd..
+  990  cd ..
+  991  ls -lrt
+  992  cd ..
+  993  cd devops301-mindtree-17Oct2020/
+  994  ls -lrt
+  995  git pull
+  996  ls
+  997  cd 05-Ansible/
+  998  ls
+  999  cat README.md 
+ 1000  apt-get update
+ 1001  apt-get install sshpass ansible -y
+ 1002  ansible --version
+ 1003  ls
+ 1004  ls -lrt
+ 1005  cd devops301-mindtree-17Oct2020/
+ 1006  ls -lrt
+ 1007  cd 05-Ansible/
+ 1008  ls
+ 1009  ansible --version
+ 1010  cd ..
+ 1011  git pull
+ 1012  cat Day4_History.txt 
+ 1013  clear
+ 1014  ls
+ 1015  cd 05-Ansible/
+ 1016  ansible --version
+ 1017  ls
+ 1018  cd 01-Inventory/
+ 1019  ls
+ 1020  ip addr
+ 1021  vim inventory 
+ 1022  ls
+ 1023  vim inventory 
+ 1024  docker images
+ 1025  docker run -itd ubuntu /bin:16.04
+ 1026  cd ..
+ 1027  git pull
+ 1028  ls
+ 1029  cd 05-Ansible/
+ 1030  docker images
+ 1031  ansible --version
+ 1032  docker run -itd --name ansible-R1 ubuntu:16.04 /bin/bash
+ 1033  docker ps -a
+ 1034  docker ps
+ 1035  docker attach ansible-R1
+ 1036  docker inspect ansible-R1
+ 1037  ssh root@172.17.0.2
+ 1038  suso su-
+ 1039  docker commit -p -m  "SSH ReadyImage" ansible-R1 ansible-ready-image:v1
+ 1040  docker images
+ 1041  docker run -itd --name ansible-R2 ansible-ready-image:v1 /bin/bash
+ 1042  docker run -itd --name ansible-R3 ansible-ready-image:v1 /bin/bash
+ 1043  docker ps
+ 1044  docker inspect ansible-R1
+ 1045  docker inspect ansible-R2
+ 1046  docker inspect ansible-R3
+ 1047  ls
+ 1048  cd 01-Inventory/
+ 1049  ls
+ 1050  cat inventory 
+ 1051  ansible docker-container -m ping
+ 1052  ansible docker-container -m command -a "ping -c 2 google.com"
+ 1053  ansible docker-container -m command -a "ping -c2 google.com"
+ 1054  ansible docker-container -m command -a "uname -a"
+ 1055  ls
+ 1056  cat ansible.cfg 
+ 1057  cd ..
+ 1058  git pull
+ 1059  ls
+ 1060  cd 05-Ansible/
+ 1061  ls -lrt
+ 1062  cd 02-Playbook/
+ 1063  ls -lrt
+ 1064  cat webserver.yaml 
+ 1065  vi webserver.yaml 
+ 1066  ls
+ 1067  cat inventory 
+ 1068  vi webserver.yaml 
+ 1069  ls
+ 1070  vi files
+ 1071  cd files
+ 1072  ls
+ 1073  vi index.html
+ 1074  ls
+ 1075  cd ..
+ 1076  ls
+ 1077  ansible-playbook webserver.yaml 
+ 1078  ls
+ 1079  vi templates/
+ 1080  ls
+ 1081  vi files
+ 1082  ls
+ 1083  cd files
+ 1084  ls -lrt
+ 1085  cd ..
+ 1086  vi inventory 
+ 1087  ls
+ 1088  ansible-playbook webserver.yaml
+ 1089  curl 172.17.0.2
+ 1090  curl 172.17.0.3
+ 1091  curl 172.17.0.4
+ 1092  ls
+ 1093  vim webserver.yaml 
+ 1094  ls
+ 1095  curl 172.17.0.4
+ 1096  cd templates/
+ 1097  ls
+ 1098  cat info.j2 
+ 1099  cd ..
+ 1100  ls
+ 1101  cat webserver.yaml 
+ 1102  ansible-playbook webserver.yaml
+ 1103  ls
+ 1104  cat inventory 
+ 1105  cat templates/info.j2 
+ 1106  curl 172.17.0.2/info.html
+ 1107  curl 172.17.0.3/info.html
+ 1108  curl 172.17.0.4/info.html
+ 1109  docker images
+ 1110  docker ps
+ 1111  docker run -itd --name ansible-R4 ansible-ready-image:v1 /bin/bash
+ 1112  docker attach ansible-R4
+ 1113  docker ps
+ 1114  docker inspect ansible-R4
+ 1115  ssh root@172.17.0.5
+ 1116  docker ps
+ 1117  ls
+ 1118  vi inventory 
+ 1119  ls
+ 1120  docker ps
+ 1121  ansible-playbook webserver.yaml
+ 1122  ls
+ 1123  vi webserver.yaml 
+ 1124  ansible-playbook webserver.yaml
+ 1125  curl 172.17.0.5/info.html
+ 1126  curl 172.17.0.2/info.html
+ 1127  curl 172.17.0.3/info.html
+ 1128  curl 172.17.0.4/info.html
+ 1129  curl 172.17.0.5/index.html
+ 1130  ls
+ 1131  vi inventory 
+ 1132  ls
+ 1133  cd devops301-mindtree-17Oct2020/
+ 1134  ls
+ 1135  cd 05-Ansible/
+ 1136  ls
+ 1137  cd 02-Playbook/
+ 1138  ls
+ 1139  docker ps
+ 1140  docker images
+ 1141  ls
+ 1142  docker ps -a
+ 1143  ls -lrt
+ 1144  cat ansible.cfg
+ 1145  cat webserver.yaml
+ 1146  cd files
+ 1147  ls -lrt
+ 1148  cd ..
+ 1149  cat inventory
+ 1150  vi inventory 
+ 1151  docker images
+ 1152  docker ps
+ 1153  docker ps -a
+ 1154  docker run -itd --name ansible-R5 ansible-ready-image:v1 /bin/bash
+ 1155  docker ps -a
+ 1156  docker attach ansible-R5
+ 1157  docker inspect ansible-R5
+ 1158  ssh root@172.17.0.2
+ 1159  docker ps
+ 1160  docker images
+ 1161  docker ps -a
+ 1162  docker run -itd --name ansible-R1 ansible-ready-image:v1 /bin/bash
+ 1163  docker run -itd --name ansible-R2 ansible-ready-image:v1 /bin/bash
+ 1164  docker attach ansible-R1
+ 1165  cd ..
+ 1166  docker ps 
+ 1167  cd ..
+ 1168  ls -lrt
+ 1169  cd devops301-mindtree-17Oct2020/
+ 1170  ls 
+ 1171  cd 05-Ansible/
+ 1172  ls
+ 1173  cd 02-Playbook/
+ 1174  ls
+ 1175  cat inventory 
+ 1176  vi inventory 
+ 1177  docker ps
+ 1178  docker kill c1a88b0eb2ba
+ 1179  docker ps
+ 1180  cd ..
+ 1181  git pull
+ 1182  ls
+ 1183  cd 05-Ansible/
+ 1184  ls -lrt
+ 1185  cd -3
+ 1186  cd 03-Tomcat/
+ 1187  ls -lrt
+ 1188  cat webserver.yaml 
+ 1189  cd ..
+ 1190  ls
+ 1191  cd 05-Ansible/
+ 1192  ls
+ 1193  cd 03-Tomcat/
+ 1194  ls
+ 1195  cd files/
+ 1196  ls
+ 1197  ls -lrt
+ 1198  pwd
+ 1199  cd /root/.jenkins/workspace/petclinic-code-freestyle
+ 1200  ls
+ 1201  cd ..
+ 1202  ls
+ 1203  cd petclinic-
+ 1204  cd petclinic-job-maven-style/02-Jenkins/petclinic-code/target/
+ 1205  ls
+ 1206  pwd
+ 1207  cd /root/devops301-mindtree-17Oct2020/05-Ansible/03-Tomcat/files
+ 1208  ls
+ 1209  cp -rf /root/.jenkins/workspace/petclinic-job-maven-style/02-Jenkins/petclinic-code/target/petclinic.war .
+ 1210  ls -lrt
+ 1211  cd ..
+ 1212  ls -lrt
+ 1213  cd 03-Tomcat/
+ 1214  ls
+ 1215  cd files
+ 1216  ls -lrt
+ 1217  cd ..
+ 1218  cat inventory 
+ 1219  l
+ 1220  ls
+ 1221  echo "Test Jenkinsfile" > files/jenkins.html
+ 1222  ls
+ 1223  docker ps
+ 1224  docker images
+ 1225  docker run -it ansible-ready-image:v1 docker run -it ansible-ready-image:v1
+ 1226  docker run -it ansible-ready-image:v1
+ 1227  docker ps
+ 1228  docker commit -p -m "SSH Ready Image" ae7ea7ce5ab8 ansible-ready-image:v2
+ 1229  docker images
+ 1230  docker ps
+ 1231  docker kill ae7ea7ce5ab8 
+ 1232  docker ps
+ 1233  docker kill $(docker ps -aq)
+ 1234  docker rm $(docker ps -aq)
+ 1235  clear
+ 1236  ls
+ 1237  docker images
+ 1238  nohup java -jar jenkins.war --httpPort=9090 > output.txt &
+ 1239  docker run -itd --name ansible-client-01 -p 30000:80 -p 38080:8080 ansible-ready-image:v2
+ 1240  docker ps
+ 1241  docker inspect b7ea59684c3c
+ 1242  ssh 172.17.0.2
+ 1243  ls
+ 1244  docker ps
+ 1245  docker run -itd --name ansible-client-02 -p 30002:80 -p 38082:8080 ansible-ready-image:v2
+ 1246  docker run -itd --name ansible-client-03 -p 30003:80 -p 38083:8080 ansible-ready-image:v2
+ 1247  docker ps
+ 1248  ls
+ 1249  ansible-playbook webserver.yaml
+ 1250  ls
+ 1251  cat webserver.yaml 
+ 1252  ls /opt/SP/apps/tomcat/webapps/webapp
+ 1253  pwd
+ 1254  cd /opt/SP/apps/tomcat/webapps/webapp
+ 1255  cd /opt/SP
+ 1256  docker ps
+ 1257  cd /opt
+ 1258  ls
+ 1259  cd tomca
+ 1260  cd tomcat
+ 1261  ls
+ 1262  cd
+ 1263  ls
+ 1264  cd devops301-mindtree-17Oct2020/
+ 1265  ls -lrt
+ 1266  cd 05-Ansible/
+ 1267  ls
+ 1268  cd 03-Tomcat/
+ 1269  ls
+ 1270  cat webserver.yaml 
+ 1271  docker ps
+ 1272  docker attach 80f2d47d6392
+ 1273  docker attach b7ea59684c3c
+ 1274  ls
+ 1275  vi inventory
+ 1276  ls
+ 1277  docker ps
+ 1278  ansible-playbook webserver.yaml
+ 1279  ls
+ 1280  vi inventory 
+ 1281  ansible-playbook webserver.yaml
+ 1282  docker ps
+ 1283  ls
+ 1284  cat webserver.yaml 
+ 1285  docker ps
+ 1286  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+ 1287  docker os
+ 1288  docker ps
+ 1289  ls
+ 1290  history
+ 1291  ls -lrt
+ 1292  cd devops301-mindtree-17Oct2020/
+ 1293  git pull
+ 1294  ls
+ 1295  cd 02-Jenkins/
+ 1296  ls
+ 1297  cd pet
+ 1298  cd petclinic-code/
+ 1299  ls
+ 1300  pwd
+ 1301  docker ps
+ 1302  docker ps -a
+ 1303  ls
+ 1304  cd ..
+ 1305  ls
+ 1306  cd jenkinsfile
+ 1307  ls
+ 1308  vi 03-Project_Path 
+ 1309  docker ps -a
+ 1310  cd ..
+ 1311  git pull
+ 1312  ls
+ 1313  cd 02-Jenkins/
+ 1314  ls
+ 1315  cd jenkinsfile/
+ 1316  ls
+ 1317  cd Jenkinsfil
+ 1318  cd Jenkinsfile
+ 1319  cat Jenkinsfile 
+ 1320  pwd
+ 1321  cat Jenkinsfile 
+ 1322  docker ps
+ 1323  pwd
+ 1324  cd ..
+ 1325  ls
+ 1326  cd 05-Ansible/\
+ 1327  cd 05-Ansible
+ 1328  ls
+ 1329  cd 03-Tomcat/
+ 1330  ls
+ 1331  cat inventory 
+ 1332  docker ps
+ 1333  cd ..
+ 1334  git pull
+ 1335  docker ps
+ 1336  git status
+ 1337  history
+ 1338  sudo su -
+ 1339  ls
+ 1340  cd DevOps-301-Mindtree-2020Oct17/
+ 1341  history
+ 1342  git pull 
+ 1343  ls
+ 1344  histor > entire_session.txt
+ 1345  history > entire_session.txt
